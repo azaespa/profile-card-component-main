@@ -92,7 +92,7 @@ body::after {
     align-items: center;
     width: 100%;
     background-color: white;
-    padding: 1rem;
+    padding-bottom: 1rem;
 }
 
 .profile-container .profile-main {
