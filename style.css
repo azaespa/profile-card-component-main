@@ -32,50 +32,25 @@ body {
     gap: 1rem;
 }
 
-/*
-body::before {
-    content: url(images/bg-pattern-top.svg);
-    position:absolute;
-    top: -85%;
-    left: -15%;
-}
-
-body::after {
-    content: url(images/bg-pattern-bottom.svg);
-    position: absolute;
-    right: -326px;
-    bottom: -630px;
-}
 
 .bg-container{
+    position: absolute;
     display: flex;
-    justify-content: space-between;
-    align-content: center;
-    gap: 1rem;
-    min-height: 100vh;
-}
-
-.bg {
-    flex: 1;
-    display: flex;
-}
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}   
 
 .bg.top {
+    margin-bottom: 850px;
 }
 
 .bg.bottom {
+    margin-top: 850px;
 }
-
-.bg-img.img-top {
-    height: 489px;
-    width: 978px;
-    object-fit: cover;
-    object-position: 0 100%;
-}
-
-.bg-img.img-bottom {
-    
-} */
 
 .card {
     display: flex;
@@ -138,7 +113,7 @@ body::after {
     justify-content: center;
     align-items: center;
     width: 100%;
-    gap: 4rem;
+    gap: 3.5rem;
     margin-top: 1.5rem;
     padding-top: 1.5rem;
     padding-bottom: .5rem;
